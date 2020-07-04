@@ -8,4 +8,5 @@ tweaks='*******Attempting to install Gnome Tweaks*******'
 echo -e "\n$tweaks\n"
 add-apt-repository universe
 apt install gnome-tweak-tool
+mkdir -p /home/marc/.themes /home/marc/.icons
 echo ""
