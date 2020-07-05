@@ -8,5 +8,6 @@ tweaks='*******Attempting to install Gnome Tweaks*******'
 echo -e "\n$tweaks\n"
 add-apt-repository universe
 apt install -y gnome-tweak-tool
-sleep 5
+sleep 15
+killall -SIGQUIT gnome-shell
 echo ""

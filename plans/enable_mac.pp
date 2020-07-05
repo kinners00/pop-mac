@@ -1,14 +1,16 @@
-plan tools::enable_mac(
+plan pop_mac::enable_mac(
   TargetSpec $targets
 ) {
-  return run_task('tools::prep', $targets)
-  return run_task('tools::tweaks', $targets, '_run_as' => 'root', '_catch_errors' => true)
-  return run_task('tools::icons', $targets)
-  return run_task('tools::theme', $targets)
-  return run_task('tools::dash_to_dock', $targets)
-  return run_task('tools::button_layout', $targets)
-  return run_task('tools::keyboard_shortcuts', $targets)
-  return run_task('tools::animations', $targets)
-  return run_task('tools::workspaces', $targets)
-  return run_task('tools::restart_gui', $targets, '_run_as' => 'root', '_catch_errors' => true)
+  run_task('pop_mac::prep', $targets)
+  run_task('pop_mac::tweaks', $targets, '_run_as' => 'root')
+  run_task('pop_mac::icons', $targets)
+  run_task('pop_mac::theme', $targets)
+  run_task('pop_mac::dash_to_dock', $targets, '_run_as' => 'root' )
+  run_task('pop_mac::button_layout', $targets)
+  run_task('pop_mac::keyboard_shortcuts', $targets)
+  run_task('pop_mac::animations', $targets)
+  run_task('pop_mac::workspaces', $targets)
+  run_task('pop_mac::restart_gui', $targets, '_run_as' => 'root')
+  run_task('pop_mac::dash_to_dock_enable', $targets)
+  run_task('pop_mac::restart_gui', $targets, '_run_as' => 'root')
   }

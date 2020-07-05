@@ -7,4 +7,5 @@ restartgui='*******Attempting to restart GUI"*******'
 #cve: <cve>
 echo -e "\n$restartgui\n"
 killall -SIGQUIT gnome-shell
+sleep 15
 echo ""
