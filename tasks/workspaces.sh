@@ -8,5 +8,4 @@ workspace='*******Attempting to change workspace to "static: 1"*******'
 echo -e "\n$workspace\n"
 gsettings set org.gnome.mutter dynamic-workspaces false
 gsettings set org.gnome.desktop.wm.preferences num-workspaces 1
-gnome-session-quit --force
 echo ""

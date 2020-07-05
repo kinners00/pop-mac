@@ -10,4 +10,5 @@ plan tools::enable_mac(
   return run_task('tools::keyboard_shortcuts', $targets)
   return run_task('tools::animations', $targets)
   return run_task('tools::workspaces', $targets)
+  return run_task('tools::restart_gui', $targets, '_run_as' => 'root', '_catch_errors' => true)
   }
