@@ -7,5 +7,5 @@ prep='*******Preparing set up*******'
 #cve: <cve>
 echo -e "\n$prep\n"
 mkdir -p /home/marc/.themes /home/marc/.icons
-git clone https://github.com/micheleg/dash-to-dock.git -b gnome-3-36 /home/ionica/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com
+git clone https://github.com/micheleg/dash-to-dock.git -b gnome-3-36 /home/marc/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com
 echo ""
