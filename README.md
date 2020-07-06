@@ -62,10 +62,12 @@ For each element (class, defined type, function, and so on), list:
 
 For example:
 
-`mod 'pop_mac',
-     :git => 'https://github.com/kinners00/pop_mac'
+
 
 #### Parameters
+
+`mod 'pop_mac',
+     :git => 'https://github.com/kinners00/pop_mac'
 
 ##### `meow`
 
