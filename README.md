@@ -66,8 +66,6 @@ For example:
 
 #### Parameters
 
-`mod 'pop_mac',
-     :git => 'https://github.com/kinners00/pop_mac'
 
 ##### `meow`
 
@@ -75,6 +73,10 @@ Enables vocalization in your cat. Valid options: 'string'.
 
 Default: 'medium-loud'.
 ```
+`mod 'pop_mac',
+     :git => 'https://github.com/kinners00/pop_mac'
+```
+
 
 ## Limitations
 
